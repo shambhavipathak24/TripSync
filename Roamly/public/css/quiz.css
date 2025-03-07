@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Set the background image for the quiz page */
+body {
+ background-color: #2F4F4F;
+}
+
+/* Styling for the form inside quiz-body */
+.quiz-body form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
+
+.quiz-body label {
+  display: block;
+  margin-top: 10px;
+}
+
+.quiz-body select, .quiz-body button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+}

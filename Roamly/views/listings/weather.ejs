@@ -1,0 +1,14 @@
+<body>
+   <h3>Weather Details for <%= listing.location %>:</h3>
+
+   <h4>Current Weather</h4>
+   <ul>
+       <li><strong>Temperature:</strong> <%= weather.current.temp_c %>°C</li>
+       <li><strong>Condition:</strong> <%= weather.current.condition.text %></li>
+       <li><strong>Humidity:</strong> <%= weather.current.humidity %>%</li>
+       <li><strong>Wind Speed:</strong> <%= weather.current.wind_kph %> kph</li>
+       <li><strong>Feels Like:</strong> <%= weather.current.feelslike_c %>°C</li>
+   </ul>
+
+   <a href="/listings/<%= listing._id %>">Back to Listing Details</a>
+</body>

@@ -1,0 +1,15 @@
+<!-- searchResults.ejs -->
+<h1>Search Results</h1>
+<% if (destinations.length > 0) { %>
+  <ul>
+    <% destinations.forEach(destination => { %>
+      <li>
+        <h2><%= destination.name %></h2>
+        <p>Category: <%= destination.category %></p>
+        <p><%= destination.description %></p>
+      </li>
+    <% }) %>
+  </ul>
+<% } else { %>
+  <p>No destinations found matching your search.</p>
+<% } %>

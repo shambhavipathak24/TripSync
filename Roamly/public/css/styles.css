@@ -1,0 +1,148 @@
+/* Footer background color */
+body{
+    font-family: "Plus Jakarta Sans",sans-serif !important;
+    background-color: #2F4F4F;
+}
+.navbar{
+    background-color: #2C3E50;
+    font-color: #BDC3C7;
+}
+.navbar .nav-link {
+  color: #BDC3C7 !important;
+}
+
+.navbar .navbar-brand {
+  color: #BDC3C7 !important;
+}
+
+.navbar-toggler-icon {
+  background-color: #BDC3C7; /* Optional: To change the hamburger icon color */
+}
+
+.navbar .nav-link.active {
+  color: #BDC3C7 !important; /* Keep active link color consistent */
+}
+
+footer {
+    background-color: #2F4F4F;  /* Updated background color */
+    color: #BDC3C7;  /* Text color updated to a darker shade for contrast */
+    padding: 20px 0;  /* Reduced padding for a more compact footer */
+    font-family: Arial, sans-serif;
+}
+
+/* Container for all footer content */
+.f-info {
+    text-align: center;
+    height: 6rem;
+}
+
+/* Social icons styling */
+.f-info-social {
+    margin-bottom: 15px;  /* Reduced margin for a more compact footer */
+}
+
+.f-info-social i {
+    color: #222222;  /* Dark color for icons */
+    font-size: 28px;  /* Slightly larger icons for better visibility */
+    margin: 0 12px;  /* Increased margin between icons */
+    transition: transform 0.3s ease, color 0.3s ease;  /* Smooth hover effect */
+}
+
+
+
+/* Company name styling */
+.f-info-company {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Links styling */
+.f-info-links {
+    margin-top: 15px;  /* Reduced margin for a more compact footer */
+}
+.f-info-links a {
+    color: #BDC3C7;  /* Dark color for links */
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+} 
+.f-info-links a:hover{
+    color: #39FF14;
+}
+.card{
+    border:none !important;
+    margin-bottom: 3rem;
+}
+.card-img-top{
+     height: 300px;
+border-radius:1rem;
+width:100% !important;
+object-fit: cover !important;
+}
+.card-body{
+    padding:0 !important;
+
+}
+.card-text{
+    font-weight: 400;
+}
+.card-text:hover{
+    color: black;
+}
+.card-head:hover{
+    color: black;
+}
+.card-links{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background: white;
+}
+.show-img{
+    height: 30vh;
+
+}
+.review-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    height: 100%;
+}
+
+/* Card Image */
+.card-img-top {
+    height: 180px;
+    object-fit: cover; /* Ensures the image fills the area without stretching */
+}
+
+/* Card Body */
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card-text small {
+    color: #999;
+    font-style: italic;
+}
+
+/* Back Button */

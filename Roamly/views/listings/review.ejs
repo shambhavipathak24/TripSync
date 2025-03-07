@@ -1,0 +1,28 @@
+<% layout('layouts/boilerplate') %>
+<body>
+<div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+    <h3>Add Review for: <%= listing.title %></h3>
+    
+    <form action="/listings/<%= listing._id %>/review" method="POST">
+        <div class="mb-3">
+            <label for="name" class="form-label">Your Name:</label>
+            <input type="text" name="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="image" class="form-label">Your Image:</label>
+            <input type="text" name="image" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="reviewText" class="form-label">Your Review:</label>
+            <textarea name="reviewText" class="form-control" required></textarea>
+        </div>
+        <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-dark">Add Review</button><br><br>
+                    </div>
+    </form>
+</div>
+</div>
+</div>
+</body>

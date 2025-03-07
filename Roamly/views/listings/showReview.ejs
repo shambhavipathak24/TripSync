@@ -1,0 +1,25 @@
+<% layout('layouts/boilerplate') %>
+<h1>All Reviews</h1>
+
+<a href="/Listings">Back to Listings</a>
+<div class="container">
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-1">
+<% reviews.forEach(review => { %>
+
+<div class="card review-card" style="width: 15rem;">
+  <img src="<%= review.reviewText %>" class="card-img-top" alt="...">
+  <div class="card-body">
+   <h3>Review for: <%= review.listing.title %></h3>
+        <p class="card-text"><strong><%= review.name %></strong></p>
+        <p class="card-text"><%= review.reviewText %></p>
+        
+        <span><%=review.date %></span>
+
+        <hr>
+        
+  </div>
+</div>
+
+<% }) %>
+</div>
+</div>
